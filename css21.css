@@ -1,0 +1,25 @@
+:root {
+    --font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#e9b9cf, #d4f2f0);
+    width: 100vw;
+    height: 100vh;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    font-family: 'Lato', sans-serif;;
+    font-size: 170px;
+    color: #00000010;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.text {
+    width: max-content;
+}
