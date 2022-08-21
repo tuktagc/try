@@ -8,14 +8,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
-    <!----link rel="stylesheet" href="css21.css"---->
+    <link rel="stylesheet" media="screen and (min-width: 500px) and (max-width: 900px)" href="css21.css">
+    <link rel="stylesheet" media="screen and (min-width: 300px) and (max-width: 500px)" href="css21.css">
 </head>
 <body>
-    <div id="division">
+    <div class="text ab1" style="position: absolute;right: 20vw;">
+        WHEN  UR  MOM
     </div>
-    <script>
-        document.getElementById("division").innerHTML = 
-        "Screen width is " + screen.width + " " + screen.height;
-    </script>
+    <div class="text ab2" style="position: absolute; right: 0vw; top:1.11em">
+        WHEN  UR  MOM
+    </div>
+    <div class="text ab3" style="position:absolute; right: -30vw;top: 2.22em">
+        WHEN  UR  MOM
+    </div>
+    <!---div class="image">
+        <img src="glasses.png" alt="glasses" height="600px" width="auto" style="position: absolute; bottom: 0; right: 20px; z-index: 2;">
+    </div--->
+    
+    <div class="background">
+        <div class="image">
+            <img src="glasses.png" alt="glasses" height="600px" width="auto" style="position: absolute; bottom: 0; right: 0px; z-index: 2;">
+        </div>
+        <div class="text-2">
+            <span class="a1">Create Your Own</span>
+            <span class="a2">PERFECTION</span>
+        </div>
+        <div class="menus">
+            <div class="menu1 ab"></div>
+            <div class="menu2 ab"></div>
+            <div class="menu3 ab"></div>
+            <div class="menu4 ab"></div>
+        </div>
+        <div class="dots">
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+        </div>
+        <!---div class="search">
+            <div style="position: relative; width: 111px; height: 28px; border-radius: 14px; border:2px solid rgba(128, 128, 128, 0.329)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24" viewBox="0 0 24 24" style="position: absolute; top:0; padding: 2px;">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    <path d="M0 0h24v24H0z" fill="none"/>
+                </svg>
+            </div>
+        </div--->
+    </div>
 </body>
 </html>
