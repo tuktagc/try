@@ -8,13 +8,6 @@ body {
     align-content: center;
 }
 
-.flex {
-    width: 390px;
-    height: 851px;
-    background-color: black;
-    position: relative;
-}
-
 .background-image {
     position: absolute;
     width: 100vh;
