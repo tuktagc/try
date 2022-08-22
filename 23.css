@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(241, 235, 235, 0.822), transparent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex {
+    width: 390px;
+    height: 851px;
+    background-color: black;
+    position: relative;
+}
+
+.background-image {
+    position: absolute;
+    width: 101vh;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
