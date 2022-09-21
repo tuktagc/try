@@ -74,9 +74,6 @@ class TextScramble {
     fx.setText(phrases[counter]).then(() => {
       console.log(counter + "in the settimeout");
       setTimeout(next, 800);
-      if (counter == 0) {
-        
-      }
     });
     counter = (counter + 1) % phrases.length;
     console.log(counter + "counter under the timeout");
