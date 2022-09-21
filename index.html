@@ -39,22 +39,7 @@
       }
       
       
-      .mainpage {
-          height: 100vh;
-          width: 100vw;
-          display: flex;
-          align-items: flex-end;
-          flex-direction: row;
-          flex-wrap: nowrap;
-          justify-content: space-around;
-      }
-      
-      
-      .mainpage > * {
-          padding-top: 50px;
-          padding-bottom: 30px;
-          background-color: #757575;
-      }</style>
+</style>
 </head>
 <body>
     <div class="container">
@@ -133,18 +118,14 @@ const fx = new TextScramble(el);
 let counter = 0;
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
+    console(counter + "in the settimeout");
     setTimeout(next, 1000);
   });
   counter = (counter + 1) % phrases.length;
+  console.log(counter + "counter under the timeout");
 };
 
 next();
     </script>
-    <div class="mainpage">
-        <div class="portfolio">portfolio</div>
-        <div class="lifestory">my weird life story</div>
-        <div class="job">solution for you</div>
-        <div class="cv">my cv</div>
-    </div>
 </body>
 </html>
