@@ -118,13 +118,13 @@ class TextScramble {
 
 
 const phrases = [
-"you, on the screen",
-"sooner or later",
-"you're going to realize",
-"just as I did",
-"that there\'s a difference",
-"between knowing the path",
-"and walking the path"];
+"war is peace",
+"freedom is slavery",
+"ignorance is strength",
+"these are facts learned over time",
+"these are the things that are imposed on us every day",
+"these are the facts of my world"
+];
 
 
 const el = document.querySelector('.text');
@@ -133,7 +133,7 @@ const fx = new TextScramble(el);
 let counter = 0;
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 800);
+    setTimeout(next, 1000);
   });
   counter = (counter + 1) % phrases.length;
 };
