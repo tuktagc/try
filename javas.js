@@ -46,5 +46,5 @@ class TextScramble {
     this.el.innerHTML = output;
     if (complete === this.queue.length) {
       this.resolve();
-    } else {
-      this.frameRequest
+    } /*else {
+      this.frameRequest*/
